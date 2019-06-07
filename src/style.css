@@ -1,1 +1,95 @@
 /* Acá van tus reglas de estilo */
+.hide{
+  display: none;
+}
+
+h1 {
+  color: #D9FDD3;
+  font: small-caps 100%/200% serif;
+  text-shadow: 1px 1px 1px black;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+  font-size: 130px;
+  padding: 3px;
+  text-align: center;
+  text-shadow: #555 2px 2px 3px;
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+  font-family: "Homer Simpson";
+}
+
+body {
+text-align: center;
+
+}
+
+table{
+  text-align: center;
+}
+
+nav{
+  color: #FCF6EF;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Palatino";
+}
+tr{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+
+label{
+  color: #FEFEFF;
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.botoningresar{
+  color: #437346;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+}
+.titulo{
+  color: #FEFEFE;
+  text-align: center;
+  font-size: 70px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.titulo1{
+  color: #FEFEFE;
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+
+}
+
+.estilotextarea {
+  width:400px;
+  height:100px;
+  border: 2px solid #FFFFFF;
+}
+
+.cifrar{
+  color: #437346;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+}
+.descifrar {
+  color: #437346;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.codigo{
+color: #437346;
+font-weight: bold;
+border-radius: 6px;
+text-align: center;
+}

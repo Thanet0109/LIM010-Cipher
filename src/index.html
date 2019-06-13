@@ -4,46 +4,62 @@
     <meta charset="utf-8">
     <title>cesaResponde</title>
      <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Changa+One&display=swap" rel="stylesheet">
   </head>
-  <body background="fondo3.jpg">
+  <body background="fondo13.jpg" style= "background-size:cover">
     <header>
-        <h1 class="titu">C e s a R e s p o n d e</h1>
+        <h1>C e s a R e s p o n d e</h1>
           </header>
 
     <main>
 
       <div id= "pantalla1">
+
         <form>
-          <nav>Ingrese aquí</nav>
+          <nav>Ingrese aquí:</nav>
           <label>CONTRASEÑA</label>
-            <input placeholder="Ingresa aqui tu contraseña" type="password" name="pass" id="pass">
-             <!--<input type="password" name="CONTRASEÑA" id="CONTRASEÑA"> -->
+             <input class="pass" placeholder="Ingresa aquí tu contraseña" type="password" name="pass" id="pass">
              <input type="button" value="ENVIAR" id="verificar" class= "botoningresar">
-           <p id="falla"></p>
-           </form>
-        </div>
+             <p id="falla" class= "falla"></p>
+         </form>
+      </div>
 
 
       <div id="pantalla2" class="hide">
 
-                <h2 class="titulo">Bienvenido Profesor(a)!</h2>
-                  <p1 class="titulo1">Bienvenidos, ahora tendrán un espacio donde podrán descifrar y cifrar respues de examenes en palabras</p1>
-                <form>
-                  <textarea placeholder="Escribe aqui..." name="data" cols="60" rows="5" class="estilodetarea"></textarea>
+                <h2 class="titulo">BIENVENIDO PROFESOR(A)!</h2>
+                  <p1 class="titulo1">Bienvenidos, ahora tendrán un espacio donde podrán descifrar y cifrar respuestas de exámenes en palabras</p1>
+                  
+                  <section class="seccion1">
+                      <textarea class= "textarea1" id= "textoCi" placeholder="Escribe aquí..." name="data" cols="33" rows="5" style="background-color:#FF8C8C"></textarea>
+                      <div>
+                         <input class="codigo" type="text" value="CÓDIGO">
+                      <input id="codigo" class="numeros" name="numeros" type="NUMBER" max="26" min="1">
+                      </div>
+                     
+                      <textarea class="textarea2" id= "respuesta" placeholder="Respuesta..." name="data" cols="33" rows="5" style="background-color: #FF8C8C"></textarea>
+                  </section>
 
-                  <input class="codigo" type="submit" value="CÓDIGO">
-
-                  <input placeholder=""class="numeros" name="numeros" type="NUMBER" max="26" min="1">
-                      <input class="cifrar" type="button" value="cifrar">
-                      <input class="descifrar" type="button" value="descifrar">
-                  <textarea placeholder="Respuesta..."name="data" cols="60" rows="5" class="estilodetarea"></textarea>
-                </form>
-              </div>
+                  <section class="seccion2">
+                      <input id= "cifrar" class="cifrar" type="button" value="CIFRAR">
+                      <input id="descifrar" class="descifrar" type="button" value="DESCIFRAR">
+                  </section>                  
+                  
+                
+        </div>
 
           </main>
 
 
-    <footer>Thanet0109</footer>
+    <footer class= "pieDePagina">Thanet0109</footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

@@ -1,95 +1,173 @@
-/* Acá van tus reglas de estilo */
 .hide{
   display: none;
 }
 
-h1 {
-  color: #D9FDD3;
-  font: small-caps 100%/200% serif;
-  text-shadow: 1px 1px 1px black;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
-  font-size: 130px;
-  padding: 3px;
-  text-align: center;
-  text-shadow: #555 2px 2px 3px;
-  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
-  font-family: "Homer Simpson";
-}
-
 body {
 text-align: center;
+padding: 9px 15px;
+margin: 100px, auto;
 
 }
 
-table{
-  text-align: center;
-}
-
-nav{
-  color: #FCF6EF;
-  text-align: center;
+h1{
+  display: inline-block;
+  position: relative;
+  color: #421E03;
+  font-family: "Pacifico", cursive;
   font-size: 70px;
-  font-family: "Palatino";
-}
+  margin: 0px 150px 50px 150px;}
+h1::after,h1::before{
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 4px;
+  background-color: currentColor;
+  top: 3cm;
+  transform: scale(0);
+  transition: all 0.5s ease-in;}
+ h1:hover::before, h1:hover::after{
+  transform: scale(1);
+ }
+ h1::before{
+   left: -150px;}
+ h1::after{
+  right: -150px;}
+table{
+    text-align: center;}
+nav{
+  color: #373806;
+  margin: 1px 100px 30px;
+  text-align: left;
+  font-size: 70px;
+  font-family: "Lobster", cursive;}
 tr{
-  text-align: center;
-}
+  text-align: center;}
 td{
+  text-align: center;}
+label{
+  color: #D96B0A;
   text-align: center;
+  font-size: 30px;
+  font-family: "Neucha", cursive;
+  text-transform: uppercase;
+
 }
 
-label{
-  color: #FEFEFF;
-  text-align: center;
-  font-size: 40px;
-  font-family: monospace;
-  text-transform: uppercase;
+.pass{
+ border: 3px solid #EAA715;
+ border-radius: 10px;
+ font-size: 25px;
 }
 
 .botoningresar{
-  color: #437346;
+  font-size: 20px;
+  color: #FFD44A;
+  background-color: #816A3B;
   font-weight: bold;
   border-radius: 6px;
   text-align: center;
 }
+
+.falla{
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+  color: #FF0000;
+  font-size: 21px;
+  font-weight: bold;
+  margin:40px 200px 1px 700px;
+  border: 20px;
+  border-color: #F5F74D;
+}
+
+h2{
+  margin: 0px 0px 0px 0px;
+}
 .titulo{
-  color: #FEFEFE;
-  text-align: center;
-  font-size: 70px;
-  font-family: monospace;
-  text-transform: uppercase;
+  color: #9E2020;
+text-align: center;
+margin: 0px 10px 5px 10px;
+font-size: 40px;
+font-family: "Changa One", CURSIVE;
 }
 
 .titulo1{
-  color: #FEFEFE;
+  color: #000000;
   text-align: center;
-  font-size: 50px;
-  font-family: monospace;
+  font-size: 20px;
+  font-family: "Space Mono", monospace;
+  font-weight: 1000px;
 
 }
-
-.estilotextarea {
-  width:400px;
-  height:100px;
-  border: 2px solid #FFFFFF;
+form{
+  padding: 100px;
+  padding-top: 20px;
 }
 
-.cifrar{
-  color: #437346;
+.seccion1{
+  padding: 10px;
+}
+.seccion2{
+  padding: 30px;
+  display: inline-block;
+}
+textarea{
+  outline: none;
+  font-family: 'Noto Serif TC', serif;
+  color: #FFFFFF;
+  FONT-SIZE: 30PX;
+  font-weight: 700;
+  margin: 10px 15px 10px 15px;
+  background-color: #FF8C8C;
+  border-radius: 10px;
+}
+
+/* .textarea1{
+  margin: 10px 100px 60px -400px;
+} */
+
+ .numeros{
+      font-size: 20px;
+    color: #AFA203;
+    background-color: #FFC9C9;
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+
+  /* margin: 10px 20px 1px 800px; */
+} 
+ .cifrar{
+  font-size: 30px;
+  color: #FFFFFF;
+  background-color: #8D8D8D;
   font-weight: bold;
   border-radius: 6px;
   text-align: center;
-}
-.descifrar {
-  color: #437346;
+  /* margin: 1px 100px 30px 1000px; */
+
+} 
+ .descifrar {
+  font-size: 30px;
+  color: #FFFFFF;
+  background-color: #8D8D8D;
   font-weight: bold;
   border-radius: 6px;
   text-align: center;
-}
+  /* margin: 10px 20px 1px 800px;  */
+} 
 
-.codigo{
-color: #437346;
+ .codigo{
+  font-size: 20px;
+    color: #FFFFFF;
+    background-color: #545454;
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+  /* margin: 0PX 100PX 10PX -550PX; */
+} 
+
+.pieDePagina{
+  font-size: 40px;
+font-family: "Dancing Script", cursive;
+color: #022D5D;
+margin: 40px 1500px 1px 1px;
 font-weight: bold;
-border-radius: 6px;
-text-align: center;
 }

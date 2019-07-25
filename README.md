@@ -13,19 +13,24 @@
 
 ## Resumen del Proyecto
 
-**CesaResponde** se basará en la necesidad que tienen los profesores en el momento de realizar un exámen. Por ello en CesaResponde podrán codificar a través de un cifrado y descifrado las respuestas de los exámenes.
+![teacher](teacher.png)
+
+La plataforma **CesaResponde** busca facilitar el acceso exclusivo de profesores con la finalidad de obtener las respuestas de exámenes formulada por ellos mismos,de esta manera los mismos docentes podrán crearlas a través de códigos y compartirlas con sus colegas con un cifrado y descifrado.
 
 ## Investigación de UX
 
-### Usuarios y Objetivos
+### **Usuarios y Objetivos**
 
-Será dirigido para profesores que tienen como necesidad mandarse las respuestas del examen sin que nadie pueda entenderlos. A través de ello encontraron la solución que ingresando a la página web “CesaResponde” donde pudieran tener a través de códigos sus respuestas, siendo así como se puedan obtener un resultado óptimo para que no surjan problemas de plagio en sus alumnos.
+![debate](debate.jpg)
+Esta plataforma va dirigida para profesores que decidan mandarse respuestas del examen ya convertidas en códigos secretos, para que solo sea comprendido por sus colegas. El objetivo a realizar es que puedan contar con la confianza de que sus respuestas estarán seguras para un buen examen. 
 
-### Cómo el producto soluciona los problemas/necesidades de los usuarios
+### **Cómo el producto soluciona los problemas/necesidades de los usuarios**
 
-El producto final tiene como solución brindarle a cada usuario (profesores) que ingresando y conectando un código (offset) de un número que ellos deseen obtengan una respuesta y sientan que de esta manera puedan no solo obtener un resultado sino que esto traiga una mayor seguridad en los exámenes y que partiendo de eso la experiencia genere poder ser compartido con el resto de colegas.
+![copiaexamen](copiaexamen.jpg)
 
-## Propotipo de papel y lapiz
+El producto final tiene como solución brindarle a cada usuario (docentes) que ingresando y conectando un código (offset) de un número que ellos elijan obtengan una respuesta para ser compartida con los demás maestros y sientan que no sólo consigan un resultado sino que al traer una mayor seguridad en los exámenes, les genere una experiencia confiable para ser compartida con el resto de colegas.
+
+## **Propotipo de papel y lapiz**
 
 
 ![Imagen 1][1]  ![Imagen 2][2]
@@ -34,11 +39,28 @@ El producto final tiene como solución brindarle a cada usuario (profesores) que
  [2]: papelylapiz2.jpg "scaphandre"
 
 
-### Resumen de feedback del Proyecto
+### **Resumen de feedback del Proyecto**
 
-El feedback se basó en la redundancia de lo que estaba colocando en la página web, a través de ello me pude dar cuenta que necesitaba modificar ciertas cosas. Por otro lado pude notar que necesitaba mejorar ciertas cosas como colocarle un usuario porque tengo primero que centrarme en el reto pedido. Y cerrando la semana me llevo la  frase del mes “paciencia y buen humor”.
+Dentro de lo que estaba deficiente la plataforma, se encontró lo siguiente:
 
-## Prototipo en Balsamiq
+*-La letra no era muy legible.*
+
+*-Contaba con demasiados cuadros para escribir el texto.*
+
+*-Ingresar con usuario y contraseña lo hacían menos rápido.*
+
+Entonces se afianzó lo siguiente:
+
+*-Se colocó un tipo y tamaño de letra considerable.* 
+
+*-Se atino a colocarle solo dos cuadros uno de mensaje y otro de respuesta.*
+
+*-Colocarle solo contraseña gneró el fácil acceso.*
+
+Gracias a estas medidas se pudo obtener una experiencia entendible para el usuario. 
+
+
+## **Prototipo en Balsamiq**
 
 
 ![Imagen 3][3]  ![Imagen 4][4]

@@ -13,7 +13,7 @@
 
 ## Resumen del Proyecto
 
-![teacher](teacher.png)
+![teacher](img/teacher.png)
 
 La plataforma **CesaResponde** busca facilitar el acceso exclusivo de profesores con la finalidad de obtener las respuestas de exámenes formulada por ellos mismos,de esta manera los mismos docentes podrán crearlas a través de códigos y compartirlas con sus colegas con un cifrado y descifrado.
 
@@ -21,22 +21,21 @@ La plataforma **CesaResponde** busca facilitar el acceso exclusivo de profesores
 
 ### **Usuarios y Objetivos**
 
-![debate](debate.jpg)
+![debate](img/debate.jpg)
 Esta plataforma va dirigida para profesores que decidan mandarse respuestas del examen ya convertidas en códigos secretos, para que solo sea comprendido por sus colegas. El objetivo a realizar es que puedan contar con la confianza de que sus respuestas estarán seguras para un buen examen. 
 
 ### **Cómo el producto soluciona los problemas/necesidades de los usuarios**
 
-![copiaexamen](copiaexamen.jpg)
+![copiaexamen](img/copiaexamen.jpg)
 
 El producto final tiene como solución brindarle a cada usuario (docentes) que ingresando y conectando un código (offset) de un número que ellos elijan obtengan una respuesta para ser compartida con los demás maestros y sientan que no sólo consigan un resultado sino que al traer una mayor seguridad en los exámenes, les genere una experiencia confiable para ser compartida con el resto de colegas.
 
 ## **Propotipo de papel y lapiz**
 
 
-![Imagen 1][1]  ![Imagen 2][2]
+![Imagen 1](img/papelylapiz1.jpg) 
+![Imagen 2](img/papelylapiz2.jpg)
 
- [1]: papelylapiz1.jpg
- [2]: papelylapiz2.jpg "scaphandre"
 
 
 ### **Resumen de feedback del Proyecto**
@@ -62,8 +61,5 @@ Gracias a estas medidas se pudo obtener una experiencia entendible para el usuar
 
 ## **Prototipo en Balsamiq**
 
-
-![Imagen 3][3]  ![Imagen 4][4]
-
- [3]: balsamip1.jpg
- [4]: balsamip2.jpg "scaphandre"
+ ![3](img/balsamip1.jpg)
+ ![4](img/balsamip2.jpg) 
